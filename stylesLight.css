@@ -1,0 +1,114 @@
+.vaporwave{
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+
+}
+.lofi{    
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+body{
+    background-color:#FFF4FD;
+}
+
+.boton{
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+
+}
+.rosa{
+    background: #FFFAFE;
+    border: 2px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+
+}
+
+#misgifs{
+    font-family: ChakraPetch-Regular;
+    font-size: 20px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+    grid-column-start: 9;
+    align-self: center;
+    
+ }
+ #misgifs::first-letter{
+     text-decoration: underline;
+ }
+ #misgifs:hover{
+    border: 1px dashed #110038;
+ }
+ #misgifs:active{
+    font-family: ChakraPetch-Regular;
+    font-size: 20px;
+    color: #F7C9F3;
+    letter-spacing: 0;
+    line-height: 18px;
+ }
+ .sailorBtn:hover{
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+    
+.sailorBtn:hover::first-letter{
+    text-decoration: underline;
+}
+.btnVerMas{
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.btnVerMas:hover{
+    background: #3A72DB;
+    border: 1px dashed #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+.resultado_sugerido{
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.resultado_sugerido:hover{
+    border: 1px dashed #110038;
+    background-color:#B4B4B4 100%;
+}
+#searchBoton:active{
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    border: 1px dashed #110038;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+    
+}
+#placeholder:focus> #searchBoton{
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+    background-color: #F7C9F3;
+}

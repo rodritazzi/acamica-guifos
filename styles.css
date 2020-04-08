@@ -1,0 +1,364 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: var(--mainColor)
+  }
+  .vaporwave{
+    font-family: ChakraPetch-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+  #grid{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 6.3% 7.1% 47.6% 10% 1.7% 9.1% 2.5% 1.7% 5.3% 9.8%;
+    grid-template-rows: 37px;
+    align-items: flex-end;
+  }
+
+
+#encabezado, #CounterVisitor{
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;    grid-column-start: 1;
+    grid-column-end: 11;
+    height: 23px;
+}
+
+.boton{
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+
+}
+
+
+#logo{
+    display: contents;
+    grid-column-start: 2;
+  }
+
+
+#logo2{
+    grid-column-start: 2;
+    align-self: center;
+    justify-items: center;
+}
+
+#creargifs{  
+    margin: 16px;
+    grid-column-start: 4;
+        height: 36px;
+        width: 100%;
+        align-self: center;
+
+
+
+}
+#tema{
+    align-self: center;
+    width: 100%;
+    height: 36px;
+    grid-column-start: 6;
+}
+#dropdown{
+    width: 36px;
+    height: 36px;
+    grid-column-start: 7;
+    align-self: center;
+
+}
+
+
+
+.boton:hover{
+    border: 1px dashed #110038;
+}
+.boton:active{
+    border: 1px dashed #110038;
+}
+
+.sailor{
+    display: none;
+    width: 9.875rem;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row: 2
+    ;
+
+}
+
+
+.sailorDay{
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; 
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+
+    width: 8.125rem;
+    height: 36px;
+
+}
+
+.sailorNight{
+
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+
+    width: 8.125rem;
+    height: 36px;
+}
+
+
+#grid2{
+    display: grid;
+    grid-template-columns: 7.2% 84.1% 9.9%;
+    grid-template-rows: 1.5rem 4.6875rem auto 64px 2.1875rem 18.75rem 9.375rem 2.1875rem 3.125rem 25rem;
+} 
+
+
+
+#preSearchBar{
+    font-family: ChakraPetch-Bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    align-items: center;
+    height: 24px;
+    grid-column-start: 2;
+    grid-row: 1;
+}
+
+#searchBar{
+    grid-row: 2;
+    grid-column-start: 2;
+    align-items: center;
+    justify-items: center;
+
+}
+#placeholder{
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    grid-column: 2;
+    grid-row: 2;
+
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 22px;
+    
+    padding-left: 5px;
+
+    width: 87%;
+    height: 3rem;
+
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+#placeholder:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+#searchBoton{
+    justify-self: right;
+    align-self: center;
+
+    grid-column: 2;
+    grid-row: 2;
+
+    width: 6.38rem;
+    height: 2.25rem;
+
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 18px;
+
+    background: #E6E6E6;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: 1rem;
+}
+#resultados_sugeridos{
+    grid-column: 2;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.resultado_sugerido{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 2.125rem;
+    width: 87%;
+}
+#resultado_sugerido1{
+    margin-top: 17px;
+}
+#sugerencia{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+}
+
+#sugerenciaDiv{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+#recomendaciones{
+    grid-column-start: 2;
+    grid-row: 6;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+img.gifs{
+    width: 100%;
+    height: 300px;
+    padding: 8px;
+
+}
+img.gifsRandom{
+    width: 100%;
+    height: 90%;
+    padding: 8px;
+    align-self: flex-end;
+
+
+}
+.divMargenGifs{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 24%;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+
+}
+.vaporwaveMargenesDivs{
+overflow: hidden;
+display: flex;
+flex-direction: row;    
+width: 95.5%;
+padding: 4px;
+align-self: center;
+justify-self: center;
+height: 24px;
+
+}
+.botonClose{
+    width: 16px;
+    margin-left: auto;
+    z-index: 3;
+    cursor: pointer;
+
+}
+
+img.gifsThicc{
+    width: 100%;
+    height: 300px;
+    padding: 8px;
+
+}
+
+#tendencias{
+    grid-column-start: 2;
+    grid-row: 8;
+    height: 32px;
+
+
+}
+#tendenciasDiv{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+#tendenciaGifs{
+
+    grid-row: 10;
+    grid-column: 2;
+}
+.btnVerMas{
+    position: absolute;
+    width: 5.0625rem;
+    height: 2.125rem;
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    align-self: baseline;
+    left: 12px;
+    bottom: 15px;
+
+}
+.travolta{
+margin-left: 22.5rem;
+margin-top: 1.25rem;
+}
+.container{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    width: 25%;
+}
+
+.divGifs{
+    display: none;
+    position: absolute;
+    top: 91.9%;
+    width: 94.4%;
+    align-self: center;
+    height: 20px;
+    line-height: 1.5;
+}
+.container:hover > .divGifs{
+    display: block;
+}

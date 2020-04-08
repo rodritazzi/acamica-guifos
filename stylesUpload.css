@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+#encabezado{
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+#grid1{
+    display: grid;
+    grid-template-rows: 2.1875rem 4rem 4.6875rem;
+    grid-template-columns: 60px 6.4125rem 11.525rem 42.375rem 23.625rem;
+}
+#logo{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+#back{
+    margin-right: 8px;
+    margin-bottom: 9px;
+}
+
+#grid2{
+    width: 42.75rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4.5625rem auto 2.25rem;
+    grid-template-rows: 1.5rem 30px 39px 1.0625rem min-content;
+    height:  21.25rem;
+}
+
+#crearGuifos{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: ChakraPetch-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+#windowImg{
+    grid-column: 1/2;
+    grid-row: 3/3;
+    margin: auto;
+}
+#aquiPodras{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-family: ChakraPetch-Bold;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+#instrucciones{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+#botones{
+    grid-column: 2/3;
+    grid-row: 6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cancelar{
+    display: block;
+    height: 36px;
+    width: 9rem;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 16px;
+}
+#comenzar{
+    height: 36px;
+    width: 9rem;
+    
+}
+#hakunaMatata{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+#hakunaMatataDiv{
+    width: 90%;
+    margin: auto;
+    margin-top: 9.375rem;
+    height: 32px;
+}   
+#video{
+    margin: 15px;
+}
+#camaraImg{
+    display: none;
+    height: 36px;
+    width: 36px;
+}
+#capturar{
+    display: none;
+    height: 36px;
+    width: 9rem;
+}
+#listo{
+    display: none;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;  
+    height: 36px;
+    width: 9rem;
+}
+#recording{
+    display: none;
+    height: 36px;
+    width: 36px;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+#cronometro{
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 85px;
+    height: 2.25rem;
+    text-justify: distribute-all-lines;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+#numeros{
+    margin-top: 6px;
+}

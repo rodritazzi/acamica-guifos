@@ -1,0 +1,117 @@
+.vaporwave{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}    
+.lofi{
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.boton{
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+
+
+}
+body{
+    background-color: #110038;
+
+}
+.rosa{
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+}
+
+#misgifs{
+    font-family: ChakraPetch-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+    grid-column-start: 9;
+    align-self: center;
+    
+ }
+ #misgifs::first-letter{
+     text-decoration: underline;
+ }
+ #misgifs:hover{
+    border: 1px dashed #FFFFFF;
+ }
+ #misgifs:active{
+    font-family: ChakraPetch-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+ }
+.sailorBtn{
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.sailorBtn:hover{
+    background: #2E32FB;
+    border: 1px solid rgba(51,53,143,0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.sailorBtn:hover::first-letter{
+    text-decoration: underline;
+}
+.btnVerMas{
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+.btnVerMas:hover{
+    background: #2629CC;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+.resultado_sugerido{
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.resultado_sugerido:hover{
+    border: 1px dashed #110038;
+}
+#searchBoton:active{
+    background-color: #EE3EFE;
+    border: 1px dashed #110038;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+#placeholder:focus> #searchBoton{
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+    background-color: #EE3EFE;
+}

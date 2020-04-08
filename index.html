@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" id="darkCss" href="stylesDark.css">
+    <link rel="stylesheet" id="lightCss" href="stylesLight.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="vaporwave" id="encabezado"><header>Bienvenidos/as a Guifos.com!------Donde los gifs están/////////Numero de visitas: <span id="CounterVisitor"></span></header> </div>    
+
+    <div id="grid">
+            <div id="logo"> <img id= "logo2" src="gifOS_UI\assets\logo.png" alt="gifos"></div>
+                    <button class="boton" id="creargifs" onclick="window.location.href='upload.html'">Crear guifos</button>
+                    <button class="boton" id="tema">Cambiar tema</button>
+                    <button class= "boton" id="dropdown"><img src="gifOS_UI\assets\dropdown.svg" alt=""></button>
+                    <a id="misgifs" href="">Mis gifos</a>
+                    
+                        <div class="sailor lofi" id="sailor">
+
+                            <div>
+                                <button class="sailorDay sailorBtn" id="day">Sailor day</button>
+                            </div>
+                            <div>
+                                <button class="sailorNight sailorBtn" id="night" >Sailor night</button>
+                            </div>
+                        </div>
+
+    </div>
+    <div id="grid2"> 
+        <div class="vaporwave" id="preSearchBar">Buscar</div>
+        <div id="searchBar" class="lofi">
+            <input type="text" id="placeholder" name="placeholder" placeholder=" Busca gifs, hashstags, temas, busca lo que quieras...">
+        </div>
+            <button type="submit" id="searchBoton" value="Buscar"><img id="lupa" src="\gifOS_UI\assets\lupa_inactive.svg" alt=""> Buscar</button> 
+
+             <div id="resultados_sugeridos" class="lofi">
+                <div class="resultado_sugerido " id="resultado_sugerido1">    
+                </div>
+                <div class="resultado_sugerido " id="resultado_sugerido2">
+                  </div>
+                <div class="resultado_sugerido " id="resultado_sugerido3">
+                </div>
+            </div>
+        <div id="sugerencia" class="rosa"> <div  id="sugerenciaDiv"> Hoy te sugerimos:</div></div>
+
+        <div id="recomendaciones">
+                <div class="divMargenGifs" id="div1">
+                    <img class="gifsRandom" id="img1">
+                    <button class="btnVerMas" id="verMas1">Ver mas...</button>
+                        <div  class="vaporwave vaporwaveMargenesDivs title1" id="title1">
+                            <button id="closeButton1" class="botonClose"><img src="gifOS_UI/assets/button close.svg"></button>
+                        </div>
+                </div>
+
+                <div class="divMargenGifs" id="div2">
+                    <img class="gifsRandom" id="img2">
+                    <button class="btnVerMas" id="verMas2">Ver mas...</button>
+                        <div class="vaporwave vaporwaveMargenesDivs title2" id="title2">
+                            <button id="closeButton2" class="botonClose"><img src="gifOS_UI/assets/button close.svg"></button>
+                        </div>
+                </div>
+
+                <div class="divMargenGifs" id="div3">
+                    <img class="gifsRandom" id="img3">
+                    <button class="btnVerMas" id="verMas3">Ver mas...</button>
+                        <div class="vaporwave vaporwaveMargenesDivs title3" id="title3">
+                            <button id="closeButton3" class="botonClose"><img src="gifOS_UI/assets/button close.svg"></button>
+                        </div>
+                </div>
+
+                <div class="divMargenGifs" id="div4">
+                    <img class="gifsRandom" id="img4">
+                    <button class="btnVerMas" id="verMas4">Ver mas...</button>
+                        <div class="vaporwave vaporwaveMargenesDivs title4" id="title4">
+                            <button id="closeButton4" class="botonClose"><img src="gifOS_UI/assets/button close.svg"></button>
+                        </div>
+                </div>
+        </div>
+
+        <div id="tendencias" class="rosa"><div id="tendenciasDiv">Tendencias</div></div><br>
+
+
+        <div id="tendenciaGifs"></div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="visitCounter.js"></script>
+<script src="cambiarColor.js"></script>
+</html>
